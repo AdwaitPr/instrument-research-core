@@ -215,3 +215,28 @@ Signed on [Date_Time] at [Mandi_Location_GPS]:
 Signature of Certifier: ___________________________
 Designation: Registered Weighbridge In-Charge
 ```
+
+---
+
+## 8. Repo Impact Analysis
+
+- **Updates to `MASTER_CORE_PROTOCOL.md`:**
+  * Establishes the **Transitional Physical Token Invariant**: thermal slips are officially classified as temporary social artifacts ($<48\text{ hours}$ dispute horizon); long-term evidentiary compliance is anchored entirely in on-device SQLite ledgers and secondary WhatsApp/PDF exports.
+  * Formally mandates **Bharatiya Sakshya Adhiniyam, 2023 (Section 63)** compliance metadata in all transaction records, replacing obsolete Indian Evidence Act Section 65B references.
+- **Impact on Room Database Schema:**
+  * Adds `electronic_evidence_ledger` table with database triggers preventing modification of cryptographic hashes and signing metadata.
+
+---
+
+## 9. Digest Card
+
+- **Key Invariants:** Thermal Media Decay is a Physical Certainty ($30\text{--}90\text{ days}$ in vehicle cabins, hours under diesel/plasticizer); Statutory Gap ($72\text{ months}$ GST vs $<3\text{ months}$ paper life); Digital Primacy via BSA 2023 S.63; Integer Storage (Grams, Paise, Epoch ms).
+- **Evidentiary Hierarchy:**
+  1. *Primary Legal Record:* Immutable on-device SQLite ledger + SHA-256 hash + ECDSA signature.
+  2. *Secondary Digital Token:* 1-bit monochrome slip bitmap exported to scoped storage and dispatched via WhatsApp.
+  3. *Transitory Social Token:* 80mm thermal receipt with offline-verifiable QR code (48-hour dispute weapon).
+- **Core Tensions:** Low-cost unbranded rolls (₹15/roll, non-topcoated) vs archival demands; physical slip trust by semi-literate drivers vs chemical impermanence.
+- **Top 3 Gemba Hooks:**
+  1. Audit 60-day-old driver slips for legibility loss.
+  2. Measure truck dashboard temperature vs thermal blackout onset ($60\text{--}75^\circ\text{C}$).
+  3. Run the 4-cell accelerated aging bench test on local thermal rolls.

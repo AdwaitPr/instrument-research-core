@@ -1,5 +1,8 @@
 # HEAD 3: COGNITIVE TASK ANALYSIS & PHYSICAL FRICTION ERGONOMICS
-# LOCATION: /core/methodologies/03_COGNITIVE_TASK_AUDIT.md
+Path: engine/methodologies/03_COGNITIVE_TASK_AUDIT.md
+Status: ACTIVE / CORE SPECIFICATION
+
+# LOCATION: engine/methodologies/03_COGNITIVE_TASK_AUDIT.md
 
 ## 1. THEORETICAL FOUNDATION
 - MIL-STD-1472G / ISO 9241: Human Engineering Criteria for Military and Industrial Systems.

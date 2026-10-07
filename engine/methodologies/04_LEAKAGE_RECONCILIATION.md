@@ -1,5 +1,8 @@
 # HEAD 4: MECHANISTIC LEAKAGE & FINANCIAL RECONCILIATION MODELING
-# LOCATION: /core/methodologies/04_LEAKAGE_RECONCILIATION.md
+Path: engine/methodologies/04_LEAKAGE_RECONCILIATION.md
+Status: ACTIVE / CORE SPECIFICATION
+
+# LOCATION: engine/methodologies/04_LEAKAGE_RECONCILIATION.md
 
 ## 1. THEORETICAL FOUNDATION
 - Mass and Cash Flow Conservation Identities: $\sum \text{Input} - \sum \text{Output} = \Delta \text{Storage} + \text{Leakage}$.

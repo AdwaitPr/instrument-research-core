@@ -1,5 +1,8 @@
 # MASTER FIELD DIAGNOSTIC PROMPT REPOSITORY
-# LOCATION: /templates/FIELD_DIAGNOSTIC_PROMPTS.md
+Path: engine/templates/FIELD_DIAGNOSTIC_PROMPTS.md
+Status: ACTIVE / CORE SPECIFICATION
+
+# LOCATION: engine/templates/FIELD_DIAGNOSTIC_PROMPTS.md
 # USE: Extract during physical Gemba interviews. Organized by interviewee tier.
 
 ## TIER 1: THE OPERATOR / FLOOR TECHNICIAN (Ground Execution)

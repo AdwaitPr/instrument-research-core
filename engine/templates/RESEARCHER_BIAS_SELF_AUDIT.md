@@ -1,5 +1,8 @@
 # RESEARCHER BIAS & FAILURE-MODE SELF-AUDIT
-# LOCATION: /templates/RESEARCHER_BIAS_SELF_AUDIT.md
+Path: engine/templates/RESEARCHER_BIAS_SELF_AUDIT.md
+Status: ACTIVE / CORE SPECIFICATION
+
+# LOCATION: engine/templates/RESEARCHER_BIAS_SELF_AUDIT.md
 # PRE-COMMIT MANDATE: Every research dossier must pass this 20-point audit before compiling schemas.
 
 ## SECTION 1: INVARIANT & SUBSTRATE INTEGRITY
@@ -17,14 +20,14 @@
 ## SECTION 3: ERGONOMIC & COGNITIVE STRESS VERIFICATION
 - [ ] Have acoustic noise (>80dBA) and direct sunlight glare (>10,000 lux) been tested on target hardware?
 - [ ] Are touch targets verified for dirty/greasy fingers (minimum 64dp) with zero precision gestures?
-- [ ] Has the system state machine been architected to survive unexpected process termination on low-memory Android?
+- [ ] Has the system state machine been architected to survive unexpected process termination on low-memory target devices?
 - [ ] Is input velocity architected for single-thumb, sub-50ms tactile execution?
 
 ## SECTION 4: FORENSIC LEAKAGE & RECONCILIATION PRECISION
 - [ ] Are all financial and measurement leakages formulated as deterministic mathematical equations?
 - [ ] Did I reject unverified percentage ranges and anchor leakage in physical units per week?
 - [ ] Have tolerance stack-up and calibration drift been accounted for across the measurement chain?
-- [ ] Are all currency fields modeled strictly as integer paise with explicit deterministic rounding?
+- [ ] Are all currency fields modeled strictly as integer base monetary units with explicit deterministic rounding?
 
 ## SECTION 5: SATURATION & STOP-GATE AUDIT
 - [ ] Have 3 consecutive interviews and shifts yielded exactly ZERO new operational edge cases?

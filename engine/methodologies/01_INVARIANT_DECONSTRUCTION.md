@@ -1,5 +1,8 @@
 # HEAD 1: INVARIANT & PRIMITIVE DECONSTRUCTION FRAMEWORK
-# LOCATION: /core/methodologies/01_INVARIANT_DECONSTRUCTION.md
+Path: engine/methodologies/01_INVARIANT_DECONSTRUCTION.md
+Status: ACTIVE / CORE SPECIFICATION
+
+# LOCATION: engine/methodologies/01_INVARIANT_DECONSTRUCTION.md
 
 ## 1. THEORETICAL FOUNDATION
 - Rasmussen’s Cognitive Work Analysis (CWA): Work Domain Analysis via Abstraction Hierarchy (Functional Purpose -> Abstract Priorities -> Generalized Functions -> Physical Objects).

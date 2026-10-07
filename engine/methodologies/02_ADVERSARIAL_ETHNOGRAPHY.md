@@ -1,5 +1,8 @@
 # HEAD 2: ADVERSARIAL ETHNOGRAPHY & SHADOW-SYSTEM MAPPING
-# LOCATION: /core/methodologies/02_ADVERSARIAL_ETHNOGRAPHY.md
+Path: engine/methodologies/02_ADVERSARIAL_ETHNOGRAPHY.md
+Status: ACTIVE / CORE SPECIFICATION
+
+# LOCATION: engine/methodologies/02_ADVERSARIAL_ETHNOGRAPHY.md
 
 ## 1. THEORETICAL FOUNDATION
 - Hollnagel’s Functional Resonance Analysis Method (FRAM): Work-as-Imagined (WAI) vs. Work-as-Done (WAD).

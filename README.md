@@ -1,32 +1,52 @@
 # instrument-research-core
 
-`instrument-research-core` serves as the foundational research framework and automation core for operational deconstruction, adversarial ethnography, and field diagnostic audits. It provides theoretical models, structured evaluation matrices, field interview prompts, and pre-commit audit checklists designed to map real-world operations ("Work-as-Done") versus official procedures ("Work-as-Imagined").
+`instrument-research-core` serves as the foundational research framework and decision engine for operational deconstruction, field diagnostic audits, and architectural system design.
 
 ---
 
-## Repository Structure & Overview
+## How to Use This Engine
 
-### 1. Core Methodologies (`/core/methodologies/`)
-
-- **01. Invariant & Primitive Deconstruction Framework (`01_INVARIANT_DECONSTRUCTION.md`)**
-  - Applies Rasmussen's Cognitive Work Analysis (CWA), Genchi Genbutsu, and physical conservation laws to separate non-negotiable invariant operational cores from local procedural shells.
-- **02. Adversarial Ethnography & Shadow-System Mapping (`02_ADVERSARIAL_ETHNOGRAPHY.md`)**
-  - Focuses on Hollnagel's FRAM and Cressey's Fraud Triangle to identify informal shadow systems, hidden shortcuts, cash advances, and off-the-books workarounds under high-stress conditions.
-- **03. Cognitive Task Analysis & Physical Friction Ergonomics (`03_COGNITIVE_TASK_AUDIT.md`)**
-  - Evaluates operational ergonomics and cognitive loads (acoustic noise, glare, vibration, dexterity limits, input latency, interruption rates, and NASA-TLX workload scores) under extreme field conditions.
-- **04. Mechanistic Leakage & Financial Reconciliation Modeling (`04_LEAKAGE_RECONCILIATION.md`)**
-  - Formulates mathematical models for physical and financial leakages (scale drift, tare exploitation, material deductions, phantom custodial releases, administrative stoppages).
-- **05. Research Saturation & Boundary-Testing Gates (`05_SATURATION_STOP_GATES.md`)**
-  - Establishes stop-gate rules, pre-mortems, and chaos fault-injection tests to guarantee research completeness and system model resilience.
+1. Execute field research through the core methodology files (`engine/methodologies/01_INVARIANT_DECONSTRUCTION.md` through `06_ARCHITECTURE_DECISION_RULES.md`) and diagnostic templates (`engine/templates/FIELD_DIAGNOSTIC_PROMPTS.md`, `RESEARCHER_BIAS_SELF_AUDIT.md`, `REQUIREMENTS_REGISTER.md`, `ADR_TEMPLATE.md`, `QUALITY_ATTRIBUTE_SCENARIOS.md`).
+2. Map observations using universal analytical lenses (01 to 09).
+3. Translate field findings into verifiable requirements and architectural decisions.
 
 ---
 
-### 2. Field Templates & Diagnostic Repositories (`/templates/`)
+## Directory Structure
 
-- **Master Field Diagnostic Prompts (`FIELD_DIAGNOSTIC_PROMPTS.md`)**
-  - Structured interrogation prompts categorized by stakeholder tier:
-    - **Tier 1:** Floor Operators & Technicians (Ground Execution)
-    - **Tier 2:** Clerks, Accountants & Munims (Shadow Records)
-    - **Tier 3:** Helpers, Drivers & Transporters (Adversarial Counterparties)
-- **Researcher Bias & Failure-Mode Self-Audit (`RESEARCHER_BIAS_SELF_AUDIT.md`)**
-  - A 20-point verification checklist ensuring invariant integrity, shadow-system reconciliation, ergonomic constraints, financial precision (integer paise / scaled integers), and theoretical research saturation before schema compilation.
+```text
+.
+├── BRIEF_TEMPLATE.md
+├── LICENSE
+├── README.md
+├── RUN_PROMPT.md
+└── engine/
+    ├── PROTOCOL.md
+    ├── RESEARCH_LENSES.md
+    ├── methodologies/
+    │   ├── 01_INVARIANT_DECONSTRUCTION.md
+    │   ├── 02_ADVERSARIAL_ETHNOGRAPHY.md
+    │   ├── 03_COGNITIVE_TASK_AUDIT.md
+    │   ├── 04_LEAKAGE_RECONCILIATION.md
+    │   ├── 05_SATURATION_STOP_GATES.md
+    │   └── 06_ARCHITECTURE_DECISION_RULES.md
+    └── templates/
+        ├── ADR_TEMPLATE.md
+        ├── FIELD_DIAGNOSTIC_PROMPTS.md
+        ├── QUALITY_ATTRIBUTE_SCENARIOS.md
+        ├── REQUIREMENTS_REGISTER.md
+        └── RESEARCHER_BIAS_SELF_AUDIT.md
+```
+
+---
+
+## From Findings to Architecture
+
+1. **Findings & Evidence Tagging:** Ground operational claims using mandatory evidence tags (`[SOURCED-REGULATORY]`, `[SOURCED-EMPIRICAL]`, `[INFERRED-MECHANICAL]`, `[HYPOTHETICAL-UNAUDITED]`).
+2. **Requirements Register:** Convert field findings into testable requirements using `engine/templates/REQUIREMENTS_REGISTER.md` with explicit evidence inheritance.
+3. **Lens 09 Rules & Hard Gates:** Evaluate rules R1–R9 (`engine/methodologies/06_ARCHITECTURE_DECISION_RULES.md`) to run platform hard gates against constraints.
+4. **Scored Matrix & Sensitivity Check:** Perform weighted scoring on surviving platforms and run $\pm 1$ sensitivity checks to identify fragile decisions.
+5. **ADRs & Quality Attribute Scenarios:** Document choices using `engine/templates/ADR_TEMPLATE.md` and define NFR benchmarks using `engine/templates/QUALITY_ATTRIBUTE_SCENARIOS.md`.
+6. **Saturation Stop-Gates:** Validate traceability and fault-injection scenarios using `engine/methodologies/05_SATURATION_STOP_GATES.md`.
+
+*Note: Any legacy domain case studies provided in reference materials serve as historical operational finding illustrations and predate Lens 09.*

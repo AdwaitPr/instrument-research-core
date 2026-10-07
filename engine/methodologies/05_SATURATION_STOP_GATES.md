@@ -1,5 +1,8 @@
 # HEAD 5: RESEARCH SATURATION & BOUNDARY-TESTING GATES
-# LOCATION: /core/methodologies/05_SATURATION_STOP_GATES.md
+Path: engine/methodologies/05_SATURATION_STOP_GATES.md
+Status: ACTIVE / CORE SPECIFICATION
+
+# LOCATION: engine/methodologies/05_SATURATION_STOP_GATES.md
 
 ## 1. THEORETICAL FOUNDATION
 - Glaser & Strauss Grounded Theory: Theoretical Saturation (zero new emergent conceptual categories).
@@ -17,6 +20,9 @@
 | **Data Triangulation** | Operational claims corroborated across distinct roles. | Every edge case confirmed by $\ge 2$ independent worker roles. | Uncorroborated Narrative. |
 | **Synthetic Fault Injection** | Schema and state machine survive edge scenarios. | Model tested against $\mathbf{5}$ catastrophic boundary conditions. | Fragile State Machine. |
 | **Pre-Mortem Analysis** | Failure mode generation yields diminishing returns. | Comprehensive pre-mortem yielding zero unmitigated failure vectors. | Confirmation Bias. |
+| **Requirement Traceability** | Every REQ has a Source and every ADR cites a REQ | 100% of REQs and ADRs pass the traceability check | Untraceable Architecture. |
+| **Architecture Fault Injection** | Chosen design survives paper fault-injection | Design tested against 5 boundary scenarios drawn from Lens 01/02 degradation rungs, each with documented response | Fragile Architecture. |
+| **Decision Fragility** | Sensitivity check run on platform matrix | ±1 shift on top-weighted driver performed and result recorded | Hidden Fragile Decision. |
 
 ## 3. SATURATION & CHAOS FIELD PROMPTS
 1. "What fundamental operational assumption would break this entire system model if proven false?"
